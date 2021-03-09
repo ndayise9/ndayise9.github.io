@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>From GPS to GIS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gpstogis.html" class="active">Research</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">From GPS to GIS</h1>
+							<span class="image fit"><img src="images/gpsto.jpg" alt="" /></span>
+							<p>
+                <u>Getting GPS data into a GIS</u>
+                <ul>
+                  2 ways you can bring GPS coordinates into a GIS:
+                  <ol>
+												<li>Take GPS receiver into the field, write down the coordinates and why relevant 
+                          info (attributes) you’re interested in, go back to the office and enter the coordinates/attributes 
+                          into a text editor or spreadsheet software to create a table, import the file into the GIS. 
+                          This is <b>not</b> the preferred method.</li>
+												<li>Using a GPS receiver that includes a data logger, capture locations and attributes while in the field, 
+                          transfer the GPS information to a computer, import to the GIS</li>
+											</ol>
+                  .</p>
+              <ul>
+							<p>Receivers that facilitate an automated approach will cost more but are worth it, and often necessary, 
+                if using GPS for GIS data collection.  
+              <br>
+                <b>Receiver Examples</b>
+                <ul>
+                <li>The GeoXM model will provide 1-3m accuracy and cost about $2000, 
+                  the more sophisticated model GeoXH provides 30cm accuracy and costs around $6000. 
+                 ESRI's Arcpad software can be loaded onto these devices, allowing you to create shapefiles during data collection.
+                 <ul>
+                   When it comes to Datum and Projection its important to know whatdaturm and projection were defined in the settings when the
+                   GPSS unit was used to collect data.
+                <li>GPS data managers will have difficulty if GPS data isn’t documented properly and 
+                  issues will occur if the data is meant to be shared with others.
+                  <ul>
+                  <b>Mobile GPS</b>
+                    <ul>
+                <li>Some GPS receivers allow you to upload GIS data directly onto the unit, 
+                  providing valuable reference information when out in the field. 
+                  - Software like ESRI's <b>ArcPad</b> facilitates this. 
+                 <br>
+                  <b>Preparation is the key</b>
+                What to keep in mind when undertaking GPS field reconnaissance:
+                      <li><b>Mission plan</b> - check sateelite status and availability beforehand
+                        to head out at optimal time for collecting GPS data
+                      <li>Design a data dictionary before going out to collect data
+                      <li>Careful of how much data is loaded into receiver before going out
+                      <li>Assess the equipment before using it for project (is it an LCD screen which would make it hard to see
+                <br>
+                        <b>A Data Dictionary</b>     
+                      <li>List all files in a database and the names and types of each field
+                      <li>Provide valuable system documentation which in turn makes it easier for data managers, data users, and application 
+                        programmers to ultimately make use of the data
+                      <li>Implementing data standards into a data dictionary is how you succeed in data collection for an organization
+                   <ul>
+                     To create a data dictionary:
+                    <ol>
+												<li>Make a list of involved geographic features</li>
+												<li>Identify attributes you wish to record for each feature</li>
+												<li>Create the data dictionary</li>
+												<li>Test your design</li>
+											</ol>
+                </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
